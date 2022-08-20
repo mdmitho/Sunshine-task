@@ -22,10 +22,10 @@ const Header = () => {
         </li>
 
         <li className="font-bold m-2">
-          <NavLink to="/blogs">Blog</NavLink>
+          <NavLink to="/login">Login</NavLink>
         </li>
         
-        
+
      
       </>
     );
