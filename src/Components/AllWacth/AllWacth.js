@@ -20,9 +20,9 @@ const AllWacth = () => {
     
     return (
       <div className="container mx-auto my-5">
-        <h1 className="text-center text-5xl font-bold my-10 ">All New Watch</h1>
+        <h1 className="text-center text-5xl font-bold my-10 ">Watch</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-          {wacths.map((watch) => (
+          {wacths.slice(0,4).map((watch) => (
             <DisplayWacth key={watch._id} watch={watch}></DisplayWacth>
           ))}
         </div>
